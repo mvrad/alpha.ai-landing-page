@@ -6,7 +6,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "npm run build:css && node ./bin/www",
+    "start": "node ./bin/www",
     "build:css": "postcss public/stylesheets/tailwind.css -o public/stylesheets/style.css -w"
   },
   "dependencies": {
