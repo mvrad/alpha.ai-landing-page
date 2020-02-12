@@ -1,5 +1,26 @@
 extends layout
 
 block content
-  header.header-home
-    h1 Hello World
+  header.header-home.relative.items-center.h-screen
+    nav.flex.justify-center.items-center.pt-20
+      .flex.flex-row.justify-center.items-start.w-auto.mr-40
+        img(src="../images/alpha-ai_color.svg", alt="Alpha.ai Logo").w-12.h-auto
+        .font-sans.text-4xl.text-white.ml-2 Alpha.ai
+      .mr-8
+        a.text-white.hover_text-gray-500.cursor-pointer Technology
+      .mr-8
+        a.text-white.hover_text-gray-500.cursor-pointer Industries
+      .mr-8
+        a.text-white.hover_text-gray-500.cursor-pointer Company
+      .mr-8
+        a.text-white.hover_text-gray-500.cursor-pointer Careers
+      .mr-8
+        a.text-white.hover_text-gray-500.cursor-pointer Contact Us
+    section.flex.justify-center.items-start.mt-20.m-auto.max-w-screen-lg
+      article.flex.flex-col
+        h1.text-6xl.text-white.mb-10 AI Everywhere on every device.
+        p.text-yellow-500 For too long AI has been limited, preventing it from being used in everyday devices. We believe in a world where the power of AI should be readily available for everyone on every device.
+        button.bg-yellow-500.hover_bg-yellow-600.text-black.font-bold.w-32.py-3.px-4.rounded-full.m-auto.mt-10 Get Started
+      .devices.ml-6
+        img(src="../images/alpha-ai_devices.svg", alt="Alpha.ai Devices").h-auto
+  .about.h-screen

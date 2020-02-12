@@ -6,7 +6,12 @@
 /* Background */
 .header-home {
   background: #0a1b2b url("../images/alpha-ai_dots.svg") no-repeat bottom/auto;
-  height: 100vh;
-  position: relative;
-  align-items: center;
+}
+
+.about {
+  background: #0a1b2b;
+}
+
+.devices {
+  width: 100%;
 }

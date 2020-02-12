@@ -1,7 +1,7 @@
 module.exports = {
   prefix: '',
   important: false,
-  separator: ':',
+  separator: '_',
   theme: {
     screens: {
       sm: '640px',
