@@ -40,6 +40,6 @@ npm run build:css
 
 Open http://localhost:3000 to view the project in the browser.
 
-<!-- ## View Project
+## View Project
 
-Visit https:// -->
+Visit https://alpha-ai-landing.herokuapp.com/
