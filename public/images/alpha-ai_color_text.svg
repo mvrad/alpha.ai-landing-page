@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 306.2 72.1" style="enable-background:new 0 0 306.2 72.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'FuturaStd-Book';}
+	.st5{font-size:63.49px;}
+</style>
+<title>alpha-ai_color_text</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="42.1873" y1="29.8552" x2="22.1873" y2="29.8552" gradientTransform="matrix(1 0 0 -1 0 73.6305)">
+	<stop  offset="0" style="stop-color:#FFE262"/>
+	<stop  offset="1" style="stop-color:#F9981C"/>
+</linearGradient>
+<path class="st0" d="M10.8,34.2h32.3c0.9,0,1.6,0.7,1.6,1.6v15.9c0,0.9-0.7,1.6-1.6,1.6H10.8c-0.9,0-1.6-0.7-1.6-1.6V35.8
+	C9.2,34.9,9.9,34.2,10.8,34.2z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="21.3981" y1="57.0493" x2="63.6181" y2="24.7293" gradientTransform="matrix(1 0 0 -1 0 73.6305)">
+	<stop  offset="0" style="stop-color:#FFE262"/>
+	<stop  offset="1" style="stop-color:#F9981C"/>
+</linearGradient>
+<path class="st1" d="M46.3,53.4l13.1-0.1c0.9,0,1.6-0.7,1.6-1.6c0-0.3-0.1-0.6-0.2-0.8L31.9,0.8c-0.4-0.8-1.4-1-2.2-0.6
+	c-0.3,0.1-0.5,0.4-0.6,0.6l-10.4,18c-0.3,0.5-0.3,1.1,0,1.6l18.5,32.1c0.3,0.5,0.8,0.8,1.4,0.8H46.3z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="2.6586" y1="32.5669" x2="44.8786" y2="0.2469" gradientTransform="matrix(1 0 0 -1 0 73.6305)">
+	<stop  offset="0" style="stop-color:#FFE262"/>
+	<stop  offset="1" style="stop-color:#F9981C"/>
+</linearGradient>
+<path class="st2" d="M21.4,50.9L12.2,35c-0.4-0.8-1.4-1-2.2-0.6c-0.2,0.1-0.4,0.3-0.6,0.6L0.2,50.9c-0.4,0.8-0.2,1.8,0.6,2.2
+	c0.2,0.1,0.5,0.2,0.8,0.2H20c0.9,0,1.6-0.7,1.6-1.6C21.6,51.4,21.5,51.2,21.4,50.9z"/>
+<text transform="matrix(1 0 0 1 67.8475 53.5156)" class="st3 st4 st5">Alpha.ai</text>
+</svg>
