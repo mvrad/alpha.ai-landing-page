@@ -8,6 +8,10 @@
   background: #0a1b2b url("../images/alpha-ai_dots.svg") no-repeat bottom/auto;
 }
 
-.about {
+.bg {
   background: #0a1b2b;
+}
+
+.embedded {
+  width: 75%;
 }
