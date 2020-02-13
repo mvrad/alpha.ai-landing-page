@@ -2,8 +2,8 @@ extends layout
 
 block content
   header.header-home.relative.items-center.h-screen
-    nav.flex.justify-center.items-center.pt-20
-      .flex.flex-row.justify-center.items-start.w-auto.mr-40
+    nav.flex.justify-center.items-center.pt-20.max-w-screen-xl.m-auto
+      .flex.flex-row.justify-center.items-start.w-auto.mr-64
         img(src="../images/alpha-ai_color.svg", alt="Alpha.ai Logo").w-12.h-auto
         .font-sans.text-4xl.text-white.ml-2 Alpha.ai
       .mr-8
@@ -16,11 +16,22 @@ block content
         a.text-white.hover_text-gray-500.cursor-pointer Careers
       .mr-8
         a.text-white.hover_text-gray-500.cursor-pointer Contact Us
-    section.flex.justify-center.items-start.mt-20.m-auto.max-w-screen-lg
-      article.flex.flex-col
+    section.flex.justify-center.items-start.mt-20.m-auto.max-w-screen-xl
+      article.flex.flex-col.mr-32
         h1.text-6xl.text-white.mb-10 AI everywhere on every device.
         p.text-yellow-500 For too long AI has been limited, preventing it from being used in everyday devices. We believe in a world where the power of AI should be readily available for everyone on every device.
         button.bg-yellow-500.hover_bg-yellow-600.text-black.font-bold.w-32.py-3.px-4.rounded-full.m-auto.mt-10 Get Started
-      .devices.ml-6
+      .ml-8.w-full
         img(src="../images/alpha-ai_devices.svg", alt="Alpha.ai Devices").h-auto
-  .about.h-screen
+  .about.relative.items-center.h-screen
+    h1.text-6xl.text-white.mb-10.max-w-screen-xl.pt-20.m-auto We deliver scaled machine learning solutions.
+    section.flex.justify-center.items-start.mt-20.m-auto.max-w-screen-xl
+      .mr-8.w-full
+        img(src="../images/alpha-ai_robot.svg", alt="Alpha.ai Robot").h-auto
+      article.flex.flex-col
+        h3.text-2xl.text-white.mt-10 Turn hardware into smartware
+        p.text-yellow-500.mt-5 Designed to run in resource-constrained environments, Alpha's models add AI functionality into a wide range of hardware platforms and already deployed devices.
+        h3.text-2xl.text-white.mt-10 Deliver insights, not security risks
+        p.text-yellow-500.mt-5 With our on-device AI, data never has to leave the device. This means better end-user experiences, radically faster insights, and uncompromised security.
+        h3.text-2xl.text-white.mt-10 Performance over cost and complexity
+        p.text-yellow-500.mt-5 Alpha's AI models are much faster, more efficient with power and memory, virtually hardware agnostic, and easy to deploy, maintain, and update to scale with your business.
