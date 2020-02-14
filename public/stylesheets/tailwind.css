@@ -13,5 +13,13 @@
 }
 
 .embedded {
-  width: 58%;
+  width: 70%;
+}
+
+.margin-reduce {
+  margin-top: -108px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
