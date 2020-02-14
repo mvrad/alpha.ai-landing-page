@@ -42,4 +42,4 @@ Open http://localhost:3000 to view the project in the browser.
 
 ## View Project
 
-Visit https://alpha-ai-landing.herokuapp.com/
+Visit https://alpha-ai-landing.herokuapp.com
