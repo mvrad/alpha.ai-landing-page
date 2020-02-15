@@ -3,18 +3,18 @@ extends layout
 block content
   header.header-home.relative.items-center.h-screen
     nav.flex.justify-center.items-center.pt-20.max-w-screen-xl.m-auto
-      .flex.flex-row.justify-center.items-start.w-auto.mr-64
-        img(src="../images/alpha-ai_color.svg", alt="Alpha.ai Logo").w-12.h-auto
-        .font-sans.text-4xl.text-white.ml-2 Alpha.ai
-      .mr-8
+      .flex.flex-row.justify-center.w-auto.mr-auto
+        img(src="../images/alpha-ai_color.svg", alt="Alpha.ai Logo").w-10.h-auto.mb-2
+        .font-sans.font-thin.text-4xl.text-white.hover_text-yellow-500.cursor-pointer.duration-150.ml-2 Alpha.ai
+      .mr-20
         a.text-white.hover_text-gray-500.cursor-pointer.duration-150 Technology
-      .mr-8
+      .mr-20
         a.text-white.hover_text-gray-500.cursor-pointer.duration-150 Industries
-      .mr-8
+      .mr-20
         a.text-white.hover_text-gray-500.cursor-pointer.duration-150 Company
-      .mr-8
+      .mr-20
         a.text-white.hover_text-gray-500.cursor-pointer.duration-150 Careers
-      .mr-8
+      .mr-0
         a.text-white.hover_text-gray-500.cursor-pointer.duration-150 Contact Us
     section.flex.justify-center.items-start.mt-20.m-auto.max-w-screen-xl
       article.flex.flex-col.mr-32
@@ -46,31 +46,40 @@ block content
   section.margin-reduce.absolute.bg-yellow-500.rounded-lg.max-w-screen-xl.text-center.px-20
     h1.text-black.text-6xl.text-center.py-3 AI-enable your devices today.
     button.bg-black.text-white.border-2.border-black.duration-150.hover_bg-yellow-500.hover_text-black.text-1xl.font-bold.w-42.py-4.px-8.rounded-full.mb-10.m-auto Get Started
-  .items-center.h-screen
+  .items-center
     .flex.max-w-screen-lg.mb-4.pt-48.m-auto
-      .w-1-4.h-auto
-        a.uppercase.font-bold.hover_underline.cursor-pointer.duration-150 Products
-        h2.uppercase.text-gray-600.text-2xl.mt-20.hover_underline.cursor-pointer.duration-150 Comply
-        h2.uppercase.text-gray-600.text-2xl.mt-6.hover_underline.cursor-pointer.duration-150 Deploy
-        h2.uppercase.text-gray-600.text-2xl.mt-6.hover_underline.cursor-pointer.duration-150 Pricing
-      .w-1-4.h-auto
-        h3.uppercase.font-bold.hover_underline.cursor-pointer.duration-150 Technology
-        p.text-gray-600.mt-20.hover_underline.cursor-pointer.duration-150 Smart Home
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Retail
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Solar-Powered AI
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Face Recognition
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Object Detection
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Person-Vehicle Detection
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Segmentation
-      .w-1-4.h-auto
-        h3.uppercase.font-bold.hover_underline.cursor-pointer.duration-150 Resources
-        p.text-gray-600.mt-20.hover_underline.cursor-pointer.duration-150 Customers
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Blog
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Compliance Guides
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Support
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Changelog
-      .w-1-4.h-auto
-        h3.uppercase.font-bold.hover_underline.cursor-pointer.duration-150 Company
-        p.text-gray-600.mt-20.hover_underline.cursor-pointer.duration-150 About
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Careers
-        p.text-gray-600.mt-2.hover_underline.cursor-pointer.duration-150 Legal
+      .w-1-4
+        h2.uppercase.font-bold Products
+        h2.uppercase.text-gray-600.text-lg.mt-20.hover_underline.cursor-pointer Comply
+        h2.uppercase.text-gray-600.text-lg.mt-6.hover_underline.cursor-pointer Deploy
+        h2.uppercase.text-gray-600.text-lg.mt-6.hover_underline.cursor-pointer Pricing
+      .w-1-4
+        h2.uppercase.font-bold Technology
+        p.text-gray-600.mt-20.hover_underline.cursor-pointer Smart Home
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Retail
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Solar-Powered AI
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Face Recognition
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Object Detection
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Person-Vehicle Detection
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Segmentation
+      .w-1-4
+        h2.uppercase.font-bold Resources
+        p.text-gray-600.mt-20.hover_underline.cursor-pointer Customers
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Blog
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Compliance Guides
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Support
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Changelog
+      .w-1-4
+        h2.uppercase.font-bold Company
+        p.text-gray-600.mt-20.hover_underline.cursor-pointer About
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Careers
+        p.text-gray-600.mt-2.hover_underline.cursor-pointer Legal
+    .flex.items-end.max-w-screen-lg.mb-20.mt-32.m-auto
+      .w-1-4
+      .w-1-4.flex.flex-row.items-end
+        img(src="../images/alpha-ai_gray.svg", alt="Alpha.ai Logo Gray").w-12.h-auto.pr-2.mb-1
+        h2.uppercase.text-gray-600 &copy; 2020 Alpha.ai
+      .w-1-4
+        p.text-gray-600.hover_underline.cursor-pointer Terms of Service
+      .w-1-4
+        p.text-gray-600.hover_underline.cursor-pointer Privacy Policy
